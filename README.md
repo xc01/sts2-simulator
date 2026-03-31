@@ -10,7 +10,8 @@ sts2_map_simulator.py [-h] [--layer {1,2,3}] [--act {overgrowth,hive,glory,under
 For example, python sts2_map_simulator.py ABCD1234EF --layer 1
 
 ### Example
-python sts2_map_simulator.py JDCBM5RFB8 --layer 2
+$python sts2_map_simulator.py JDCBM5RFB8 --layer 2
+
 seed_string=JDCBM5RFB8
 requested_layer=2
 resolved_act=hive
