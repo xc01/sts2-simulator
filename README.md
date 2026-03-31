@@ -63,4 +63,4 @@ row 14: (0,14)->(3,15), (3,14)->(3,15), (5,14)->(3,15), (6,14)->(3,15)
 ### TODO
 + fix Boss Rng selector
 + add interface
-+ add Deck and Relic sequence interface
++ add Deck Potion Monster and Relic sequence interface
