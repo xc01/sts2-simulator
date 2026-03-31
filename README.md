@@ -2,14 +2,17 @@
 + Can be used to generate map for RL/other training.
 
 ### Usage
+```bash
 sts2_map_simulator.py [-h] [--layer {1,2,3}] [--act {overgrowth,hive,glory,underdocks}] [--act-index {1,2,3,4}] [--multiplayer]
                              [--underdocks-available] [--no-underdocks-available] [--first-time-underdocks] [--replace-treasure-with-elites] [--second-boss]
                              [--gloom] [--no-gloom] [--swarming-elites] [--no-swarming-elites] [--show-edges]
                              seed
+```
 
 For example, python sts2_map_simulator.py ABCD1234EF --layer 1
 
 ### Example
+```bash
 $python sts2_map_simulator.py JDCBM5RFB8 --layer 2
 
 seed_string=JDCBM5RFB8
@@ -55,6 +58,7 @@ row 11: (0,11)->(0,12), (3,11)->(2,12), (3,11)->(3,12), (5,11)->(4,12), (5,11)->
 row 12: (0,12)->(0,13), (2,12)->(3,13), (3,12)->(3,13), (4,12)->(3,13), (4,12)->(5,13), (6,12)->(5,13), (6,12)->(6,13)
 row 13: (0,13)->(0,14), (3,13)->(3,14), (5,13)->(5,14), (6,13)->(6,14)
 row 14: (0,14)->(3,15), (3,14)->(3,15), (5,14)->(3,15), (6,14)->(3,15)
+```
 
 ### TODO
 + fix Boss Rng selector
