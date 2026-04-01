@@ -1,4 +1,6 @@
 # sts2-map-simulator
+> 战个未来吧
+> ————辉辉一时兴起
 + Can be used to generate map for RL/other training.
 
 ### Usage
@@ -61,6 +63,8 @@ row 14: (0,14)->(3,15), (3,14)->(3,15), (5,14)->(3,15), (6,14)->(3,15)
 ```
 
 ### TODO
-+ fix Boss Rng selector
-+ add interface
-+ add Deck Potion Monster and Relic sequence interface
++ Fix Boss Rng selector
++ Add python interface to collaborate with RL/LLM.
+
+### NOT TODO
++ Will not add Deck Potion Monster and Relic sequence interface, to avoid 辉眼.
